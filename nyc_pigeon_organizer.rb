@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       names.each |n| do
         if pigeon_list[name]
           pigeon_list[name] = {}
+        end
         if 
       end
     end
