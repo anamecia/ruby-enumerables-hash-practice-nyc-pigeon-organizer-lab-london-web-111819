@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
         end
         if pigeon_hash[name][trait]
           pigeon_hash[name][trait] = []
-        
       end
     end
   end
