@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if pigeon_hash[name][trait]
           pigeon_hash[name][trait] = []
         end
-        pigeon_hash[name][trait].push
+        pigeon_hash[name][trait].push(attribute.to_s)
       end
     end
   end
