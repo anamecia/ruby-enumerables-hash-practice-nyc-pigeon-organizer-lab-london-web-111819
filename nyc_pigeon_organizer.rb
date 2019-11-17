@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if pigeon_hash[name][trait]
           pigeon_hash[name][trait] = []
         end
-        pi
+        pigeon_hash[name][trait]
       end
     end
   end
