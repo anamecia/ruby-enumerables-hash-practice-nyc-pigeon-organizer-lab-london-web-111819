@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   pigeon_hash = {}
   data.each do |trait,attribute|
     attribute.each do |detail,names|
-      names.each do |n|
+      names.each do |name|
         if pigeon_hash[name]
           pigeon_hash[name] = {}
         end
