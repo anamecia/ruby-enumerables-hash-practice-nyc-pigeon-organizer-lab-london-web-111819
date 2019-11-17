@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     attribute.each |detail,names| do
       names.each |n| do
         pigeon_list[name] = {}
+      end
     end
       
     
