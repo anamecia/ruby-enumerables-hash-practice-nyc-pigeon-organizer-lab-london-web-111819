@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |trait,attribute|
     attribute.each |detail,names| do
       names.each |n| do
-        pigeon_list[name] = 
+        pigeon_list[name] = {}
     end
       
     
